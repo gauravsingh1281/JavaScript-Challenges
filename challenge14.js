@@ -1,6 +1,6 @@
 // Wap to Count the no. of even and odd digits of number entered by the user.
-let OriginalNum = Number(prompt("Enter any no. to count its digit"));
-let num = OriginalNum;
+let originalNum = Number(prompt("Enter any no. to count its digit"));
+let num = originalNum;
 let evenCount = 0;
 let oddCount = 0;
 while (num > 0) {
@@ -13,5 +13,5 @@ while (num > 0) {
   num = Math.floor(num / 10);
 }
 console.log(
-  `The number ${OriginalNum} has ${evenCount} even digits and ${oddCount} odd digits.`
+  `The number ${originalNum} has ${evenCount} even digits and ${oddCount} odd digits.`
 );
